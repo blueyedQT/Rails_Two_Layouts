@@ -8,11 +8,13 @@
 	<div class="container">
 		<h1>This is the two_column layout!</h1>
 		<div class="row">
-			<div id="left_column" class="col-xs-7">
-				<%= yield :left_column %>
+			<div id="left" class="col-md-6">
+				<h2>This is the left column</h2>
+				<%= yield :left %>
 			</div>
-			<div class="col-xs-4">
-				<% yield %>
+			<div id="right" class="col-md-6">
+				<h2>This is the right column</h2>
+			<%= yield :right %>
 			</div>
 		</div>
 </body>

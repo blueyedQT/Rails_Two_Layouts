@@ -8,4 +8,3 @@ Rails.application.config.assets.version = '1.0'
 # Rails.application.config.assets.precompile += %w( search.js )
 Rails.application.config.assets.precompile += %w( two_column.css )
 Rails.application.config.assets.precompile += %w( two_column.js )
-
