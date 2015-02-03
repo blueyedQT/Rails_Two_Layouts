@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-	layout "three_column"
+	layout "two_column"
 	def index
 	end
 
